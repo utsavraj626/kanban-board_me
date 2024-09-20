@@ -1,0 +1,24 @@
+/* styles/KanbanBoard.css */
+.kanban-board {
+    display: flex;
+    flex-direction: column;
+}
+
+.kanban-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.kanban-column {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .kanban-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,78 @@
+/* TicketCard container */
+.ticket-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.ticket-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Ticket info on the left side */
+.ticket-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-id {
+    font-size: 0.9rem;
+    color: #8c8c8c;
+    margin-bottom: 4px;
+}
+
+.ticket-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Ticket metadata (icon and tags) */
+.ticket-metadata {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.ticket-priority-icon {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f5;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 0.8rem;
+    color: #f97316;
+    margin-right: 8px;
+}
+
+.ticket-tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f9fafb;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    color: #6b7280;
+    margin-right: 8px;
+}
+
+/* Profile image on the right */
+.ticket-profile {
+    display: flex;
+    align-items: center;
+}
+
+.ticket-profile img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 2px solid #f9fafb;
+}
